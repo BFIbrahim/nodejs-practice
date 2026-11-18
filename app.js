@@ -1,4 +1,5 @@
 const fs = require("node:fs")
+const dayjs = require("dayjs")
 
 
 
@@ -40,3 +41,9 @@ console.log(content);
 
 
 
+
+
+// DayJS for understnding lockFiles
+const currentDate = dayjs().format("YYYY-MM-DD")
+
+console.log("Today is: ", currentDate);
