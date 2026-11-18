@@ -27,18 +27,17 @@ console.log(appName);
 
 // file system
 // Create new file with content: 
-fs.writeFileSync("message.txt", "Hello Node.JS")
+fs.writeFileSync("user.txt", "Hello Node.JS")
 console.log("File Created");
 
 // Add content to exiting file
-fs.appendFileSync("message.txt", "\nI am learning Node.JS");
+fs.appendFileSync("user.txt", "\nI am learning Node.JS");
 
 
 // Read File
-const content = fs.readFileSync("message.txt", "utf8");
+const content = fs.readFileSync("user.txt", "utf8");
 console.log(content);
 
-fs.unlinkSync("message.txt")
 
 
 
