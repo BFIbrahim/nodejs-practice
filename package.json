@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/BFIbrahim/nodejs-practice/issues"
   },
-  "homepage": "https://github.com/BFIbrahim/nodejs-practice#readme"
+  "homepage": "https://github.com/BFIbrahim/nodejs-practice#readme",
+  "dependencies": {
+    "dayjs": "^1.11.23"
+  }
 }
