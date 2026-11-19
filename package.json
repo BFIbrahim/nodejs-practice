@@ -20,5 +20,8 @@
   "homepage": "https://github.com/BFIbrahim/nodejs-practice#readme",
   "dependencies": {
     "dayjs": "^1.11.23"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
   }
 }

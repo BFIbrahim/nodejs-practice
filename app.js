@@ -40,10 +40,10 @@ console.log(content);
 
 
 
-
-
-
 // DayJS for understnding lockFiles
 const currentDate = dayjs().format("YYYY-MM-DD")
 
 console.log("Today is: ", currentDate);
+
+
+console.log("Installed nodemon and checked and practiced dependencies VS devdipendencies")
